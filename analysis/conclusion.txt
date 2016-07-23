@@ -1,0 +1,14 @@
+The therotical values of utilization factor on RM graph lies between 20% - 90%. As we know,
+    U(3) = .779
+    U(4) = .756
+    U(large n) = .69
+
+    But for some datasets, the utilization factor has gone above 80% which can be predicted to
+    harmonic tasks
+
+When we compare graphs of RM and EDF, we see that in EDF the number of tasks at 90% is very high
+compared to RM, this can be attributed to U<=1 for EDF.
+
+For Practical values, they stand at 100%, RM -> 80   (U <= 0.69)
+                                          EDF -> 100 (U <= 1.00)
+    Because the datasets choosen had U <= 1
